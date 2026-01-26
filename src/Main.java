@@ -17,7 +17,8 @@ void main() {
 
     window.setLocationRelativeTo(null);
     window.setVisible(true);
-
+    System.out.println("Hello World");
+    gamePanel.startGameThread();
 
 
 }

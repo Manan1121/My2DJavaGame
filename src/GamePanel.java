@@ -32,7 +32,16 @@ public class GamePanel extends JPanel implements Runnable{
     @Override
     public void run() {
         while (gameThread != null) {
-            System.out.println("The Game is Running");
+            //System.out.println("The Game is Running");
         }
+    }
+    public void update(){
+
+    }
+
+    public void paintComponent(Graphics g){
+        super.paintComponent(g);
+
+
     }
 }
